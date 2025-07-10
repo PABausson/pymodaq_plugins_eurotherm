@@ -114,3 +114,5 @@ venv.bak/
 
 *yacctab.py
 *lextab.py
+pymodaq_plugins_eurotherm.code-workspace
+.vscode/launch.json
