@@ -80,11 +80,11 @@ class Eurotherm3500(minimalmodbus.Instrument):
             sleep(0.2) # Make sure connection is established before doing anything else
 
         except: # serial.SerialException:
-            info = f"Failed to open instrument serial at port : ", self.instrumentSerial.port
+            info = f"Failed to open instrument serial at port : {self.instrumentSerial.port}"
             # raise
             pass
         else:
-            info =  f"Eurotherm 3500 connection opened at port : ", self.instrumentSerial.port
+            info =  f"Eurotherm 3500 connection opened at port : {self.instrumentSerial.port}"
 
         opened = self.instrumentSerial.is_open
 
