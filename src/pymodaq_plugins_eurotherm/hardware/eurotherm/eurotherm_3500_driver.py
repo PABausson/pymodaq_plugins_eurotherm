@@ -2,7 +2,7 @@
 """
 Python wrapper for Eurotherm 3500 process controllers, with communication via the Modbus RTU protocol.
 
-Highly inspired from mimnimalmodbus library's example driver for Eurotherm 3500 (eurotherm3500.py file 
+Highly inspired from minimalmodbus library's example driver for Eurotherm 3500 (eurotherm3500.py file 
 originally created by Jonas Berg <pyhys@users.sourceforge.net> in 2012) and adapted for PyMoDAQ software
 """
 from tkinter import E

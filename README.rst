@@ -61,17 +61,14 @@ Actuators
 .. * **yyy**: control of yyy 1D detector
 .. * **xxx**: control of xxx 1D detector
 
-
 .. Viewer2D
 .. ++++++++
 
 .. * **yyy**: control of yyy 2D detector
 .. * **xxx**: control of xxx 2D detector
 
-
 .. PID Models
 .. ==========
-
 
 .. Extensions
 .. ==========
@@ -82,5 +79,6 @@ Installation instructions
 
 .. * PyMoDAQ’s version.
 .. * Operating system’s version.
-* Currently under test on Windows 10 OS, with python=3.11.13 & pymodaq=5.0.18
 .. * What manufacturer’s drivers should be installed to make this plugin run?
+
+* Currently under test on Windows 10 OS, with python=3.11.13 & pymodaq=5.0.18

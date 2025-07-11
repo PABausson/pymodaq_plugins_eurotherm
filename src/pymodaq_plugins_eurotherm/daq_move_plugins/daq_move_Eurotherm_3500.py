@@ -13,7 +13,7 @@ DEFAULT_COM_PORT = 'COM4'
 DEFAULT_SLAVE_ADDRESS = 1
 
 class DAQ_Move_Eurotherm_3500(DAQ_Move_base):
-    """ Instrument plugin class for an Eurothoerm 3500 process controller.
+    """ Instrument plugin class for an Eurotherm 3500 process controller.
     
     This object inherits all functionalities to communicate with PyMoDAQ’s DAQ_Move module through inheritance via
     DAQ_Move_base. It makes a bridge between the DAQ_Move module and the Python wrapper of a particular instrument.
